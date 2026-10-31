@@ -8,15 +8,10 @@ BackToBasics-GCL pairs GCN and MLP encoders for simple and effective graph contr
 
 ## Table of Contents
 
-
-
-- \[Requirements](#requirements)
-
-- \[Framework](#framework-overview)
-
-- \[Reproducing Results](#reproducing-results)
-
-- \[Citation](#citation)
+- [Requirements](#requirements)
+- [Framework](#framework-overview)
+- [Reproducing Results](#reproducing-results)
+- [Citation](#citation)
 
 
 
@@ -34,13 +29,13 @@ To install the required dependencies, refer to the `environment.yml` file.
 
 
 
-!\[Framework overview](images/framework.png)
+![Framework overview](images/framework.png)
 
 
 
 
 
-\## Reproducing Results
+## Reproducing Results
 
 
 
@@ -52,7 +47,7 @@ To reproduce the results in Table 3 and Table 4, run the following commands:
 
 ```bash
 
-python main. py --dataset wisconsin --hidden\_dim 2048 --epoch 100 --lr 0.01 --runtime 10 --classifier\_time 10 --classifier\_epochs 2000 --cuda 3 --classifier\_lr 0.01 --classifier\_decay 0.0001 --batch\_norm --loss cosmean --GCN\_layers\_1 2 --a1 0.3 --a2 0.7
+python main. py --dataset wisconsin --hidden_dim 2048 --epoch 100 --lr 0.01 --runtime 10 --classifier_time 10 --classifier_epochs 2000 --cuda 3 --classifier_lr 0.01 --classifier_decay 0.0001 --batch_norm --loss cosmean --GCN_layers_1 2 --a1 0.3 --a2 0.7
 
 
 
@@ -70,7 +65,7 @@ Additional comments are provided in `log`. Variants using alternative encoders (
 
 
 
-\## Citation
+## Citation
 
 
 
@@ -79,28 +74,15 @@ If you find our helpful, consider to cite us:
 
 
 ```bibtex
-
-
-
-@INPROCEEDINGS{Zhao:C26b,
-
-\&#x20;   author = {Yanan Zhao and Feng Ji and Jingyang Dai and Jiaze Ma and Wee Peng Tay},
-
-\&#x20;   title = {Return to Basics: Very Simple Graph Contrastive Learning via Noise Cancellation Principle},
-
-\&#x20;   booktitle = {Advances in Neural Information Processing Systems},
-
-\&#x20;   volume = {},
-
-\&#x20;   pages = {},
-
-\&#x20;   month = {Dec.},
-
-\&#x20;   year = {2026},
-
-\&#x20;   address = {Sydney, Australia},
-
+@inproceedings{Zhao:C26b,
+    author = {Yanan Zhao and Feng Ji and Jingyang Dai and Jiaze Ma and Wee Peng Tay},
+    title = {Return to Basics: Very Simple Graph Contrastive Learning via Noise Cancellation Principle},
+    booktitle = {Advances in Neural Information Processing Systems},
+    month = {Dec.},
+    year = {2026},
+    address = {Sydney, Australia}
 }
+```
 
 
 
