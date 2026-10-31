@@ -6,21 +6,21 @@ BackToBasics-GCL pairs GCN and MLP encoders for simple and effective graph contr
 
 
 
-\## Table of Contents
+## Table of Contents
 
 
 
-\- \[Requirements](#requirements)
+- \[Requirements](#requirements)
 
-\- \[Framework](#framework-overview)
+- \[Framework](#framework-overview)
 
-\- \[Reproducing Results](#reproducing-results)
+- \[Reproducing Results](#reproducing-results)
 
-\- \[Citation](#citation)
+- \[Citation](#citation)
 
 
 
-\## Requirements
+## Requirements
 
 
 
@@ -30,7 +30,7 @@ To install the required dependencies, refer to the `environment.yml` file.
 
 
 
-\## Framework overview
+## Framework overview
 
 
 
