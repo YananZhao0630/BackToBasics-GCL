@@ -57,7 +57,7 @@ python main. py --dataset wisconsin --hidden_dim 2048 --epoch 100 --lr 0.01 --ru
 
 
 
-Additional comments are provided in `log`. Variants using alternative encoders (i.e., GAT-MLP and GRAND-MLP) are available in `log\\\_pde\\\_lin`.
+Additional comments are provided in `log`. Variants using alternative encoders (i.e., GAT-MLP and GRAND-MLP) are available in `log_pde_lin`.
 
 
 
