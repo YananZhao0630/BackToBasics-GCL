@@ -1,0 +1,98 @@
+"main.py --dataset chameleon-filtered --hidden_dim 4096 --epoch 18 --lr 0.01 --runtime 10 --classifier_time 10 --classifier_epochs 2000 --cuda 3 --classifier_lr 0.01 --classifier_decay 0.001 --batch_norm --loss cosmean --a1 0.4 --a2 0.6 --classifier_seed 0 --GCN_layers_1 3"
+test_acc: 0.47058189782424725
+test_std: 0.0447876533802792
+test_acc: 0.46281957080991176
+test_std: 0.038944503418018445
+test_acc: 0.4654272365815356
+test_std: 0.050137561459129
+test_acc: 0.4747617501371346
+test_std: 0.03781006173684826
+test_acc: 0.46395569246695717
+test_std: 0.04954304747213303
+test_acc: 0.46257974738790847
+test_std: 0.04377703832476575
+test_acc: 0.46384923743580064
+test_std: 0.040316660794365244
+test_acc: 0.4611724205680467
+test_std: 0.04977896428491099
+test_acc: 0.4652671546841815
+test_std: 0.04165236419224161
+test_acc: 0.45804822260761996
+test_std: 0.04183876126443592
+test_acc_mean: 0.4648462930503344
+test_acc_std: 0.004499681028711778
+{
+  "classifier_epochs": 2000,
+  "batch_size": 1,
+  "patience": 200,
+  "l2_coef": 0.0,
+  "drop_prob": 0.0,
+  "dataset": "chameleon-filtered",
+  "num_hop": 0,
+  "cuda": 3,
+  "seed": 1234,
+  "classifier_lr": 0.01,
+  "classifier_decay": 0.001,
+  "classifier_seed": 0,
+  "classifier_time": 10,
+  "classifier": null,
+  "hidden_dim": 4096,
+  "proj_dim": 256,
+  "fc_out": false,
+  "input_dropout": 0.4,
+  "dropout": 0.4,
+  "batch_norm": true,
+  "optimizer": "adam",
+  "lr": 0.01,
+  "decay": 0.0005,
+  "epoch": 18,
+  "alpha_dim": "sc",
+  "no_alpha_sigmoid": false,
+  "beta_dim": "sc",
+  "block": "constant",
+  "function": "laplacian",
+  "use_mlp": false,
+  "add_source": false,
+  "time": 3.0,
+  "augment": false,
+  "method": "euler",
+  "step_size": 1.0,
+  "max_iters": 100,
+  "adjoint_method": "adaptive_heun",
+  "adjoint": false,
+  "adjoint_step_size": 1,
+  "tol_scale": 1.0,
+  "tol_scale_adjoint": 1.0,
+  "ode_blocks": 1,
+  "max_nfe": 1000,
+  "no_early": false,
+  "earlystopxT": 3,
+  "max_test_steps": 100,
+  "beltrami": false,
+  "leaky_relu_slope": 0.2,
+  "attention_dropout": 0.0,
+  "heads": 4,
+  "attention_norm_idx": 0,
+  "attention_dim": 16,
+  "mix_features": false,
+  "reweight_attention": false,
+  "attention_type": "scaled_dot",
+  "square_plus": false,
+  "data_norm": "gcn",
+  "self_loop_weight": 1.0,
+  "runtime": 10,
+  "loss": "cosmean",
+  "random_splits": false,
+  "alpha_ode": 1.0,
+  "alpha_ode_1": 1.0,
+  "alpha_ode_2": 0.1,
+  "a1": 0.4,
+  "a2": 0.6,
+  "reaction_term": "bspm",
+  "beta_diag": false,
+  "lambda": 0.1,
+  "GCN_layers_1": 3,
+  "GCN_layers_2": 2,
+  "feature_shuffled": false,
+  "num_nodes": 864
+}
